@@ -1,1 +1,1 @@
-sdl.c.3d.view sdl2 3d file view
+view class files , view public and private objects
