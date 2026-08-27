@@ -81,7 +81,10 @@ namespace helloworld
         {
             InitializeComponent();
         }
-
+        public static void Main()
+        {
+             Application.Run(new Form1());
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             i = label1.Left + label1.Width;
@@ -94,17 +97,4 @@ namespace helloworld
         }
     }
 
-    internal static class Program
-    {
-        /// <summary>
-        /// Ponto de entrada principal para o aplicativo.
-        /// </summary>
-        [STAThread]
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-        }
-    }
-}
+ }
